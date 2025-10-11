@@ -4,7 +4,22 @@
 }
 @media (max-width: 1199.98px) {
 
-
+.testimonialCard {
+    padding: 36px 32px;
+  }
+  
+  .testimonialText {
+    font-size: 15px;
+  }
+  
+  .clientAvatar {
+    width: 56px;
+    height: 56px;
+  }
+  
+  .avatarFallback {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 1024.98px) {
@@ -67,7 +82,104 @@
     background-color: #ffffff;
 }
 
+.mySwiper {
+    width: 100%;
+    height: calc(100vh - 116.83px);
+  }
 
+.filter-btns {
+    margin-bottom: 36px;
+  }
+  .cardInfo {
+    padding: 20px;
+  }
+
+.whySection .row {
+    margin-top: 36px;
+  }
+  
+  .whyCard {
+    padding: 28px 24px;
+  }
+  
+  .cardNumber {
+    width: 44px;
+    height: 44px;
+    font-size: 22px;
+  }
+  
+  .whyTitle {
+    font-size: 19px;
+    margin-bottom: 14px;
+  }
+  
+  .whyDesc {
+    font-size: 14px;
+  }
+  .statCard {
+    padding: 28px 16px;
+  }
+  
+  .statIcon {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 16px;
+  }
+  
+  .statIcon svg {
+    width: 34px;
+    height: 34px;
+  }
+
+.sectionSubtext {
+    margin-bottom: 36px;
+  }
+  
+  .testimonialSwiper {
+    padding: 30px 15px 0;
+  }
+  
+  .testimonialCard {
+    padding: 32px 28px;
+  }
+  
+  .clientName {
+    font-size: 17px;
+  }
+  
+  .clientDesignation {
+    font-size: 13px;
+  }
+  
+  .clientCompany {
+    font-size: 12px;
+  }
+ .faqItem .accordion-button {
+    font-size: 16px;
+    padding: 20px 24px;
+    gap: 14px;
+  }
+  
+  .faqNumber {
+    min-width: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+  
+  .accordion-body {
+    padding: 20px 24px 24px 78px;
+    font-size: 14px;
+  }
+  
+  .faqItem .accordion-button::after {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .faqItem .accordion-button::before {
+    right: 32px;
+    font-size: 22px;
+  }
 }
 @media (max-width: 767.98px) {
   .footer,
@@ -131,7 +243,154 @@
   display: none;
 }
 
+.filter-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+  .filter-btns {
+    gap: 8px;
+    margin-bottom: 32px;
+  }
+  
+  .cardInfo h5 {
+    font-size: 18px;
+  }
+  
+  .cardInfo p {
+    font-size: 13px;
+  }
+ .whySection .row {
+    margin-top: 32px;
+  }
+  
+  .whyCard {
+    padding: 24px 20px;
+    margin-bottom: 20px;
+  }
+  
+  .cardNumber {
+    width: 40px;
+    height: 40px;
+    font-size: 26px;
+    top: -8px;
+    right: -8px;
+  }
+  
+  .whyTitle {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  
+  .whyDesc {
+    font-size: 14px;
+    line-height: 1.6;
+  }
 
+ .statCard {
+    padding: 24px 12px;
+  }
+  
+  .statIcon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 12px;
+  }
+  
+  .statIcon svg {
+    width: 28px;
+    height: 28px;
+  }
+  
+
+  
+  .statLabel {
+    font-size: 12px;
+  }
+
+.sectionSubtext {
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  
+  .testimonialSwiper {
+    padding: 20px 10px 0;
+  }
+  
+  .testimonialCard {
+    padding: 28px 24px;
+  }
+  
+  .quoteIcon svg {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .testimonialText {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  
+  .clientInfo {
+    gap: 12px;
+    padding-top: 16px;
+  }
+  
+  .clientAvatar {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .avatarFallback {
+    font-size: 18px;
+  }
+  
+  .clientName {
+    font-size: 16px;
+  }
+  
+  .testimonialNext,
+  .testimonialPrev {
+    width: 42px;
+    height: 42px;
+  }
+  
+  .testimonialNext::after,
+  .testimonialPrev::after {
+    font-size: 16px;
+  }
+  
+  .star {
+    font-size: 18px;
+  }
+
+ .faqItem .accordion-button {
+    font-size: 15px;
+    padding: 18px 20px;
+    gap: 12px;
+  }
+  
+  .faqNumber {
+    min-width: 36px;
+    height: 36px;
+    font-size: 14px;
+  }
+  
+  .accordion-body {
+    padding: 16px 20px 20px 20px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  
+  .faqItem .accordion-button::after {
+    width: 26px;
+    height: 26px;
+  }
+  
+  .faqItem .accordion-button::before {
+    right: 28px;
+    font-size: 20px;
+  }
 
 }
 
@@ -149,11 +408,92 @@
 
  .mySwiper {
     width: 100%;
-    height: calc(100vh - 88px);
+    height: calc(100vh - 72.83px);
   }
 
+   .statsSection {
+    padding: 50px 0;
+  }
+  
+  .statCard {
+    padding: 20px 8px;
+  }
+  
+  .statIcon {
+    width: 42px;
+    height: 42px;
+  }
+  
+  .statIcon svg {
+    width: 28px;
+    height: 28px;
+  }
 
+  .testimonialCard {
+    padding: 24px 20px;
+  }
+  
+  .testimonialText {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+  
+  .clientInfo {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    text-align: center;
+    margin-bottom: 8px;
+  }
 
+  .rating{
+    justify-content: center;
+    line-height: 16px;
+  }
+  
+  .clientAvatar {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto;
+  }
+  
+  .testimonialNext,
+  .testimonialPrev {
+    display: none;
+  }
+
+  .faqItem {
+    margin-bottom: 12px;
+  }
+  
+  .faqItem .accordion-button {
+    font-size: 14px;
+    padding: 16px 18px;
+    gap: 10px;
+    line-height: 1.4;
+  }
+  
+  .faqNumber {
+    min-width: 32px;
+    height: 32px;
+    font-size: 13px;
+    border-radius: 6px;
+  }
+  
+  .accordion-body {
+    padding: 14px 18px 18px 18px;
+    font-size: 13px;
+  }
+  
+  .faqItem .accordion-button::after {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .faqItem .accordion-button::before {
+    right: 26px;
+    font-size: 18px;
+  }
 }
 
 @media only screen and (max-height: 539.98px) {
@@ -177,5 +517,44 @@
   background: linear-gradient(to right, #0000009c 40%, #00000018) center/cover, url('../image/Banner3.webp') center / cover no-repeat;
 }
 
+.subTag {
+    font-size: 12px;
+    padding: 6px 18px;
+  }
+  
+  
+  .filter-btn {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+  
+  .cardTag {
+    font-size: 10px;
+    padding: 5px 12px;
+  }
+  
+  .cardInfo {
+    padding: 18px;
+  }
+  
+  .serviceCardSection .swiper {
+    padding: 15px 0 0;
+  }
+
+ .whyCard {
+    padding: 22px 18px;
+  }
+  
+  .cardNumber {
+    font-size: 20px;
+  }
+  
+  .whyTitle {
+    font-size: 17px;
+  }
+  
+  .whyDesc {
+    font-size: 13px;
+  }
 }
 

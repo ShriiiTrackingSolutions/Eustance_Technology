@@ -22,6 +22,8 @@
     <meta property="og:type" content="website">
 
     <link fetchpriority="high" rel="preload" href="image/BrandLogo.webp" as="image" type="image/webp" />
+    <link fetchpriority="high" rel="preload" href="image/Banner1.webp" as="image" type="image/webp" />
+    <link fetchpriority="high" rel="preload" href="image/BannerMob1.webp" as="image" type="image/webp" />
 
     <!-- Preload -->
     <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
@@ -75,13 +77,13 @@
           </div>
             <div class="desktopBranding d-none d-lg-block">
               <a class="brandLogo" href="index.html">
-                <img src="image/BrandLogo.webp" alt="Adventure Camps">
+                <img loading="eager" src="image/BrandLogo.webp" alt="Adventure Camps">
               </a>
             </div>
             <nav class="mynavbar bg-light">
               <div class="container header">
                 <a class="brandLogo d-block d-lg-none" href="index.html">
-                  <img src="image/BrandLogo.webp" alt="Adventure Camps">
+                  <img loading="eager" src="image/BrandLogo.webp" alt="Adventure Camps">
                 </a>
                 <button class="navToggle">
                   <span class="iconify" data-icon="fa6-solid:bars" data-inline="false"></span>
@@ -139,10 +141,10 @@
               <div class="row">
                 <div class="col-xl-6 col-lg-7">
                 <div class="banner2text px-3">
-                  <h1 class="display-2">MARINE ELECTRONICS</h1>
-                  <h2 class="subHeading fourthH">Precision Engineered Underwater Systems</h2>
-                  <p class="fifthH fw-normal">Trusted by marine professionals for ROV systems, thrusters, and ESC technology.</p>
-                  <a class="btnFill" href="#">Explore Products</a>
+                  <h2 class="display-2">ROV TECHNOLOGY</h2>
+                  <h3 class="subHeading fourthH">Expert Solutions for Underwater Exploration</h3>
+                  <p class="fifthH fw-normal">Complete range of marine electronics, thrusters, and mobility vehicles for every mission.</p>
+                  <a class="btnFill" href="#">Talk to Experts</a>
                 </div>
                 </div>
               </div>  
@@ -169,10 +171,10 @@
               <div class="row">
                 <div class="col-xl-6 col-lg-7">
                 <div class="banner2text px-3">
-                  <h2 class="display-2">ROV TECHNOLOGY</h2>
-                  <h3 class="subHeading fourthH">Expert Solutions for Underwater Exploration</h3>
-                  <p class="fifthH fw-normal">Complete range of marine electronics, thrusters, and mobility vehicles for every mission.</p>
-                  <a class="btnFill" href="#">Talk to Experts</a>
+                  <h1 class="display-2">MARINE ELECTRONICS</h1>
+                  <h2 class="subHeading fourthH">Precision Engineered Underwater Systems</h2>
+                  <p class="fifthH fw-normal">Trusted by marine professionals for ROV systems, thrusters, and ESC technology.</p>
+                  <a class="btnFill" href="#">Explore Products</a>
                 </div>
                 </div>
               </div>  
@@ -187,151 +189,672 @@
   <!-- banner start End-->
 
 
-
-<!-- Trips Section -->
-<section class="adventure-trips defaultPadding">
+<section class="aboutHomeP defaultPadding">
   <div class="container">
-    <span class="subHeading fifthH">Latest Trips</span>
-    <h2 class="secH">Explore New Adventures & Scenic Trails</h2>
-
-    <div class="swiper adventureSwiper">
-      <div class="swiper-wrapper">
-        
-        <!-- Card 1 -->
-        <div class="swiper-slide">
-          <div class="adventure-card">
-            <img src="https://picsum.photos/id/1018/600/400" alt="Himalaya Trek">
-            <div class="card-overlay">
-              <div class="tripTopWrap">
-                <div class="tripNameLoca">
-                  <span class="location">Himalaya, Nepal</span>
-                  <h3 class="fourthH">Annapurna Base Camp</h3>
-                </div>
-                <a aria-label="Read More" href="" class="arrow-btn"><span class="iconify" data-icon="grommet-icons:link-next" data-inline="false"></span></a>
-              </div>
-              <div class="trip-info">
-                <span>7 Days</span>
-                <span>12 People</span>
-                <span>Moderate</span>
-              </div>
-              
-            </div>
-          </div>
+    <div class="row">
+      <div class="col-xl-6 col-lg-5">
+        <div class="smallIntroImage">
+          <img loading="lazy" src="image/smallIntro.webp" alt="About Eustance Technology">
         </div>
-
-        <!-- Card 2 -->
-        <div class="swiper-slide">
-          <div class="adventure-card">
-            <img src="https://picsum.photos/id/11/600/400" alt="Africa Safari">
-            <div class="card-overlay">
-              <div class="tripTopWrap">
-                <div class="tripNameLoca">
-                  <span class="location">Kenya, East Africa</span>
-                  <h3 class="fourthH">Safari Expedition</h3>
-                </div>
-                <a aria-label="Read More" href="" class="arrow-btn"><span class="iconify" data-icon="grommet-icons:link-next" data-inline="false"></span></a>
-              </div>
-              <div class="trip-info">
-                <span>5 Days</span>
-                <span>8 People</span>
-                <span>Easy</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="swiper-slide">
-          <div class="adventure-card">
-            <img src="https://picsum.photos/id/29/600/400" alt="Alps Hiking">
-            <div class="card-overlay">
-              <div class="tripTopWrap">
-                <div class="tripNameLoca">
-                  <span class="location">Alps, Switzerland</span>
-                  <h3 class="fourthH">Glacier Hike</h3>
-                </div>
-                <a aria-label="Read More" href="" class="arrow-btn"><span class="iconify" data-icon="grommet-icons:link-next" data-inline="false"></span></a>
-              </div>
-              <div class="trip-info">
-                <span>6 Days</span>
-                <span>10 People</span>
-                <span>Challenging</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="swiper-slide">
-          <div class="adventure-card">
-            <img src="https://picsum.photos/id/1039/600/400" alt="Alps Hiking">
-            <div class="card-overlay">
-              <div class="tripTopWrap">
-                <div class="tripNameLoca">
-                  <span class="location">Alps, Switzerland</span>
-                  <h3 class="fourthH">Glacier Hike</h3>
-                </div>
-                <a aria-label="Read More" href="" class="arrow-btn"><span class="iconify" data-icon="grommet-icons:link-next" data-inline="false"></span></a>
-              </div>
-              <div class="trip-info">
-                <span>6 Days</span>
-                <span>10 People</span>
-                <span>Challenging</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
-      <!-- Swiper Navigation -->
-       <div class="adventure-button-next swiper-button-next"></div>
-       <div class="adventure-button-prev swiper-button-prev"></div>
+      <div class="col-xl-6 col-lg-7 ps-xl-5">
+          <h2 class="secH">About Eustance Technology</h2>
+          <p>At Eustance Technology, we design and manufacture precision-engineered marine electronics for underwater applications. Our product range includes ROV systems, subsea thrusters, ESC technology, and custom mobility vehicles tailored to meet specific operational needs. We combine technical expertise with innovative engineering to deliver solutions that ensure reliability, performance, and efficiency in challenging marine environments. From concept to deployment, we support our clients with customized systems designed for success.</p>
+          <a class="btnFill" href="#">Get to Know Us</a>
+        </div>
     </div>
   </div>
 </section>
 
 
-  <section id="stats-section" class="defaultPadding">
-      <div class="container">
-        <h2 class="secH text-center mb-2">Our Adventure in Numbers</h2>
-        <p class="maxPara mb-5"> Trusted by explorers, families, and thrill-seekers across the country.</p>
-        <div class="row text-center">
-          <div class="col-lg-3 col-sm-6">
-            <div>
-              <span class="stat-number display-2" data-target="500">0</span
-              ><span class="display-2">+</span>
-              <h3 class="stat-text fifthH">Adventurers Hosted</h3>
-              <p>Happy campers who joined our trips and events over the years.</p>
+<section class="serviceCardSection defaultPadding">
+  <div class="container">
+    <span class="subTag d-table">Our Products</span>
+    <h2 class="secH text-center">Advanced Marine Electronics & Underwater Systems</h2>
+    
+    <!-- Filter Buttons -->
+    <div class="text-center filter-btns mb-4">
+      <button class="btn btnFilterActive filter-btn" data-filter="all">All Products</button>
+      <button class="btn btn-outline-dark filter-btn" data-filter="Thrusters">Subsea Thrusters</button>
+      <button class="btn btn-outline-dark filter-btn" data-filter="ESC">ESC Controllers</button>
+      <button class="btn btn-outline-dark filter-btn" data-filter="ROV">ROV Systems</button>
+      <button class="btn btn-outline-dark filter-btn" data-filter="Accessories">Accessories</button>
+    </div>
+    
+    <!-- Swiper Carousel -->
+    <div class="swiper" id="serviceCarousel">
+      <div class="swiper-wrapper"></div>
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+    
+    <!-- Hidden All Items -->
+    <div id="all-items" style="display: none;">
+      
+      <!-- Subsea Thrusters -->
+      <div class="item car-card" data-category="Thrusters">
+        <div class="serviceCards">
+          <div class="cardImg">
+            <img loading="lazy" src="image/productThumb.webp" alt="ET03e Underwater Thruster">
+            <span class="cardTag">LIGHT DUTY THRUSTER</span>
+          </div>
+          <div class="cardInfo">
+            <h5>ET03e Underwater Thruster</h5>
+            <p>Rated 2.7kgf dynamic thrust, 150m depth. Corrosion-resistant SS 316 construction with composite bearings for reliable underwater propulsion.</p>
+          </div>
+          <a href="#" class="absAnchor" aria-label="explore product ET03e Underwater Thruster"></a>
+        </div>
+      </div>
+
+      <div class="item car-card" data-category="Thrusters">
+        <div class="serviceCards">
+          <div class="cardImg">
+            <img loading="lazy" src="image/productThumb.webp" alt="ET05 Underwater Thruster">
+            <span class="cardTag">MEDIUM DUTY THRUSTER</span>
+          </div>
+          <div class="cardInfo">
+            <h5>ET05 Marine Robotics Thruster</h5>
+            <p>Powerful 5kgf thrust capacity for ROVs and AUVs. High-efficiency brushless motor with advanced fluid dynamics design for optimal performance.</p>
+          </div>
+          <a href="#" class="absAnchor" aria-label="explore product ET05 Marine Robotics Thruster"></a>
+        </div>
+      </div>
+
+      <div class="item car-card" data-category="Thrusters">
+        <div class="serviceCards">
+          <div class="cardImg">
+            <img loading="lazy" src="image/productThumb.webp" alt="ET07e Underwater Thruster">
+            <span class="cardTag">PROFESSIONAL GRADE</span>
+          </div>
+          <div class="cardInfo">
+            <h5>ET07e Heavy-Duty Thruster</h5>
+            <p>Maximum 2.7kgf forward thrust at 12V, expandable to higher voltages. Designed for professional marine robotics and deep-sea applications.</p>
+          </div>
+          <a href="#" class="absAnchor" aria-label="explore product ET07e Heavy-Duty Thruster"></a>
+        </div>
+      </div>
+
+      <!-- ESC Controllers -->
+      <div class="item car-card" data-category="ESC">
+        <div class="serviceCards">
+          <div class="cardImg">
+            <img loading="lazy" src="image/productThumb.webp" alt="Waterproof ESC">
+            <span class="cardTag">WATERPROOF CONTROLLER</span>
+          </div>
+          <div class="cardInfo">
+            <h5>45A Waterproof ESC</h5>
+            <p>Bi-directional waterproof electronic speed controller for underwater thrusters. Supports 2-6S LiPo with PWM, Oneshot, Multishot, and Dshot protocols.</p>
+          </div>
+          <a href="#" class="absAnchor" aria-label="explore product 45A Waterproof ESC"></a>
+        </div>
+      </div>
+
+      <div class="item car-card" data-category="ESC">
+        <div class="serviceCards">
+          <div class="cardImg">
+            <img loading="lazy" src="image/productThumb.webp" alt="Standard ESC">
+            <span class="cardTag">MOTOR CONTROL</span>
+          </div>
+          <div class="cardInfo">
+            <h5>ET02K Motor Control ESC</h5>
+            <p>Advanced ESC with regenerative braking and smooth throttle response. Auto-detects throttle signals for improved stability and flexibility in underwater operations.</p>
+          </div>
+          <a href="#" class="absAnchor" aria-label="explore product ET02K Motor Control ESC"></a>
+        </div>
+      </div>
+
+      <div class="item car-card" data-category="ESC">
+        <div class="serviceCards">
+          <div class="cardImg">
+            <img loading="lazy" src="image/productThumb.webp" alt="High Voltage ESC">
+            <span class="cardTag">HIGH VOLTAGE</span>
+          </div>
+          <div class="cardInfo">
+            <h5>Professional Grade ESC System</h5>
+            <p>Proprietary firmware designed for superior thruster performance. Hardware-generated motor PWM reduces noise and improves underwater vehicle control precision.</p>
+          </div>
+          <a href="#" class="absAnchor" aria-label="explore product Professional Grade ESC System"></a>
+        </div>
+      </div>
+
+      <!-- ROV Systems -->
+      <div class="item car-card" data-category="ROV">
+        <div class="serviceCards">
+          <div class="cardImg">
+            <img loading="lazy" src="image/productThumb.webp" alt="Compact ROV">
+            <span class="cardTag">OBSERVATION CLASS</span>
+          </div>
+          <div class="cardInfo">
+            <h5>Compact ROV System</h5>
+            <p>Lightweight observation-class ROV for inspection, monitoring, and surveying tasks. Complete with integrated thruster system and HD imaging capabilities.</p>
+          </div>
+          <a href="#" class="absAnchor" aria-label="explore product Compact ROV System"></a>
+        </div>
+      </div>
+
+      <div class="item car-card" data-category="ROV">
+        <div class="serviceCards">
+          <div class="cardImg">
+            <img loading="lazy" src="image/productThumb.webp" alt="Work Class ROV">
+            <span class="cardTag">WORK CLASS</span>
+          </div>
+          <div class="cardInfo">
+            <h5>Professional ROV Platform</h5>
+            <p>Modular work-class ROV designed for complex underwater operations. Features payload flexibility, enhanced control systems, and extended mission capability.</p>
+          </div>
+          <a href="#" class="absAnchor" aria-label="explore product Professional ROV Platform"></a>
+        </div>
+      </div>
+
+      <div class="item car-card" data-category="ROV">
+        <div class="serviceCards">
+          <div class="cardImg">
+            <img loading="lazy" src="image/productThumb.webp" alt="Custom ROV">
+            <span class="cardTag">CUSTOM SOLUTIONS</span>
+          </div>
+          <div class="cardInfo">
+            <h5>Customized ROV Systems</h5>
+            <p>Tailored ROV solutions for specific mission requirements. Custom configurations include specialized tooling, sensors, and propulsion systems for unique applications.</p>
+          </div>
+          <a href="#" class="absAnchor" aria-label="explore product Customized ROV Systems"></a>
+        </div>
+      </div>
+
+      <!-- Marine Accessories -->
+      <div class="item car-card" data-category="Accessories">
+        <div class="serviceCards">
+          <div class="cardImg">
+            <img loading="lazy" src="image/productThumb.webp" alt="Marine Propellers">
+            <span class="cardTag">PROPULSION COMPONENTS</span>
+          </div>
+          <div class="cardInfo">
+            <h5>High-Efficiency Propellers</h5>
+            <p>CW and CCW propellers designed for optimal thrust and efficiency. Available in multiple sizes to match various thruster models and applications.</p>
+          </div>
+          <a href="#" class="absAnchor" aria-label="explore product High-Efficiency Propellers"></a>
+        </div>
+      </div>
+
+      <div class="item car-card" data-category="Accessories">
+        <div class="serviceCards">
+          <div class="cardImg">
+            <img loading="lazy" src="image/productThumb.webp" alt="Tether Cables">
+            <span class="cardTag">CONNECTIVITY</span>
+          </div>
+          <div class="cardInfo">
+            <h5>ROV Tether Systems</h5>
+            <p>High-quality tether cables for power and data transmission. Twisted pair silicone wires with anti-interference design for stable underwater communication.</p>
+          </div>
+          <a href="#" class="absAnchor" aria-label="explore product ROV Tether Systems"></a>
+        </div>
+      </div>
+
+      <div class="item car-card" data-category="Accessories">
+        <div class="serviceCards">
+          <div class="cardImg">
+            <img loading="lazy" src="image/productThumb.webp" alt="Mounting Hardware">
+            <span class="cardTag">INSTALLATION</span>
+          </div>
+          <div class="cardInfo">
+            <h5>Mounting & Installation Hardware</h5>
+            <p>Complete range of mounting brackets, frames, and hardware for thruster and ROV assembly. Marine-grade materials for long-lasting durability.</p>
+          </div>
+          <a href="#" class="absAnchor" aria-label="explore product Mounting & Installation Hardware"></a>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+
+<section class="whySection defaultPadding">
+  <div class="container">
+    <h2 class="secH text-center">Why Eustance Technology</h2>
+    
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="whyCard">
+          <div class="cardNumber">1</div>
+          <h5 class="whyTitle">Precision Engineering & Innovation</h5>
+          <p class="whyDesc">Advanced underwater propulsion systems designed with high-efficiency fluid simulation technology, offering superior thrust-to-power ratios and corrosion-resistant construction for long-lasting performance in harsh marine environments.</p>
+        </div>
+      </div>
+      
+      <!-- Card 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="whyCard">
+          <div class="cardNumber">2</div>
+          <h5 class="whyTitle">Customization & Flexibility</h5>
+          <p class="whyDesc">Complete support for customization of motors, ESCs, and underwater thrusters to meet specific project requirements. Tailored ROV solutions designed for unique mission profiles, from shallow water inspections to deep-sea exploration operations.</p>
+        </div>
+      </div>
+      
+      <!-- Card 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="whyCard">
+          <div class="cardNumber">3</div>
+          <h5 class="whyTitle">Cost-Effective Solutions</h5>
+          <p class="whyDesc">Competitive pricing with transparent billing structure, helping reduce project costs while maintaining quality. Efficient designs minimize power consumption and maintenance requirements, significantly reducing operational expenses over the product lifecycle.</p>
+        </div>
+      </div>
+      
+      <!-- Card 4 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="whyCard">
+          <div class="cardNumber">4</div>
+          <h5 class="whyTitle">Quality & Reliability Standards</h5>
+          <p class="whyDesc">Stringent quality control processes ensuring every thruster and ESC component meets international marine standards. Products tested for depths up to 250m with corrosion-resistant SS316 construction and composite non-metallic bearings for maximum durability.</p>
+        </div>
+      </div>
+      
+      <!-- Card 5 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="whyCard">
+          <div class="cardNumber">5</div>
+          <h5 class="whyTitle">Technical Expertise & Support</h5>
+          <p class="whyDesc">Experienced engineering team specializing in marine robotics, brushless motor technology, and underwater vehicle systems. Comprehensive technical support from product selection to post-deployment assistance, ensuring successful project implementation.</p>
+        </div>
+      </div>
+      
+      <!-- Card 6 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="whyCard">
+          <div class="cardNumber">6</div>
+          <h5 class="whyTitle">Comprehensive Product Range</h5>
+          <p class="whyDesc">Complete underwater propulsion ecosystem including thrusters (2.7kgf to 6.5kgf), waterproof ESCs, ROV systems, and marine accessories. One-stop solution provider eliminating the need for multiple vendors and ensuring component compatibility.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="statsSection defaultPadding">
+  <div class="container">
+    <div class="row text-center">
+      <!-- Stat 1 -->
+      <div class="col-lg-3 col-md-6 col-6 mb-4">
+        <div class="statCard">
+          <div class="statIcon">
+            <svg width="38" height="38" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="statNumber display-2" data-target="500">0</div>
+          <div class="statLabel">Projects Deployed</div>
+        </div>
+      </div>
+
+      <!-- Stat 2 -->
+      <div class="col-lg-3 col-md-6 col-6 mb-4">
+        <div class="statCard">
+          <div class="statIcon">
+            <svg width="38" height="38" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89318 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="statNumber display-2" data-target="150">0</div>
+          <div class="statPlus display-2">+</div>
+          <div class="statLabel">Satisfied Clients</div>
+        </div>
+      </div>
+
+      <!-- Stat 3 -->
+      <div class="col-lg-3 col-md-6 col-6 mb-4">
+        <div class="statCard">
+          <div class="statIcon">
+            <svg width="38" height="38" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9 3V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M15 9L21 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M15 15L21 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="statNumber display-2" data-target="25">0</div>
+          <div class="statPlus display-2">+</div>
+          <div class="statLabel">Product Models</div>
+        </div>
+      </div>
+
+      <!-- Stat 4 -->
+      <div class="col-lg-3 col-md-6 col-6 mb-4">
+        <div class="statCard">
+          <div class="statIcon">
+            <svg width="38" height="38" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="statNumber display-2" data-target="250">0</div>
+          <div class="statLabel">Max Depth (Meters)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonialSection defaultPadding">
+  <div class="container">
+    <span class="subTag d-table">Testimonials</span>
+    <h2 class="secH text-center">What Our Clients Say</h2>
+    <p class="maxPara">Trusted by marine professionals worldwide for quality and reliability</p>
+    
+    <!-- Swiper Testimonial Carousel -->
+    <div class="swiper testimonialSwiper">
+      <div class="swiper-wrapper">
+        
+        <!-- Testimonial 1 -->
+        <div class="swiper-slide">
+          <div class="testimonialCard">
+            <div class="quoteIcon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 8C10 8 9 9 9 12C9 15 10 16 10 16H7C7 16 4 15 4 12C4 9 7 4 7 4L10 7V8Z" fill="currentColor"/>
+                <path d="M19 8C19 8 18 9 18 12C18 15 19 16 19 16H16C16 16 13 15 13 12C13 9 16 4 16 4L19 7V8Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <p class="testimonialText">"The ET05 thrusters exceeded our expectations. Their high-efficiency design and corrosion-resistant construction performed flawlessly during our deep-sea research mission at 180m depth. Eustance Technology's technical support was exceptional throughout the project."</p>
+            <div class="clientInfo">
+              <div class="clientAvatar">
+                <img loading="lazy" src="image/client-1.jpg" alt="Dr. Rajesh Kumar" onerror="this.style.display='none'">
+                <span class="avatarFallback">RK</span>
+              </div>
+              <div class="clientDetails">
+                <h5 class="clientName">Dr. Rajesh Kumar</h5>
+                <p class="clientDesignation">Marine Research Scientist</p>
+                <p class="clientCompany">National Institute of Oceanography</p>
+              </div>
+            </div>
+            <div class="rating">
+              <i class="star">★</i>
+              <i class="star">★</i>
+              <i class="star">★</i>
+              <i class="star">★</i>
+              <i class="star">★</i>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
-            <div>
-              <span class="stat-number display-2" data-target="12">0</span
-              ><span class="display-2">+</span>
-              <h3 class="stat-text fifthH">Unique Activities</h3>
-              <p>From rock climbing to stargazing, we offer diverse experiences for all ages.</p>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="swiper-slide">
+          <div class="testimonialCard">
+            <div class="quoteIcon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 8C10 8 9 9 9 12C9 15 10 16 10 16H7C7 16 4 15 4 12C4 9 7 4 7 4L10 7V8Z" fill="currentColor"/>
+                <path d="M19 8C19 8 18 9 18 12C18 15 19 16 19 16H16C16 16 13 15 13 12C13 9 16 4 16 4L19 7V8Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <p class="testimonialText">"We've deployed over 20 ROV systems using Eustance thrusters and ESC controllers for underwater pipeline inspections. Their products offer excellent thrust-to-power ratio and the waterproof ESC technology is remarkably reliable. Great value for professional applications."</p>
+            <div class="clientInfo">
+              <div class="clientAvatar">
+                <img loading="lazy" src="image/client-2.jpg" alt="Captain Vikram Singh" onerror="this.style.display='none'">
+                <span class="avatarFallback">VS</span>
+              </div>
+              <div class="clientDetails">
+                <h5 class="clientName">Captain Vikram Singh</h5>
+                <p class="clientDesignation">Operations Manager</p>
+                <p class="clientCompany">Offshore Inspection Services Ltd.</p>
+              </div>
+            </div>
+            <div class="rating">
+              <i class="star">★</i>
+              <i class="star">★</i>
+              <i class="star">★</i>
+              <i class="star">★</i>
+              <i class="star">★</i>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
-            <div>
-              <span class="stat-number display-2" data-target="150">0</span
-              ><span class="display-2">+</span>
-              <h3 class="stat-text fifthH">Successful Camps</h3>
-              <p>Organized across mountains, riversides, and forests with expert safety standards.</p>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="swiper-slide">
+          <div class="testimonialCard">
+            <div class="quoteIcon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 8C10 8 9 9 9 12C9 15 10 16 10 16H7C7 16 4 15 4 12C4 9 7 4 7 4L10 7V8Z" fill="currentColor"/>
+                <path d="M19 8C19 8 18 9 18 12C18 15 19 16 19 16H16C16 16 13 15 13 12C13 9 16 4 16 4L19 7V8Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <p class="testimonialText">"Eustance Technology provided complete customization for our autonomous underwater vehicle project. The engineering team worked closely with us to modify the ET07e thrusters to meet our specific requirements. Their flexibility and technical expertise made all the difference."</p>
+            <div class="clientInfo">
+              <div class="clientAvatar">
+                <img loading="lazy" src="image/client-3.jpg" alt="Prof. Anita Deshmukh" onerror="this.style.display='none'">
+                <span class="avatarFallback">AD</span>
+              </div>
+              <div class="clientDetails">
+                <h5 class="clientName">Prof. Anita Deshmukh</h5>
+                <p class="clientDesignation">Robotics Department Head</p>
+                <p class="clientCompany">IIT Bombay</p>
+              </div>
+            </div>
+            <div class="rating">
+              <i class="star">★</i>
+              <i class="star">★</i>
+              <i class="star">★</i>
+              <i class="star">★</i>
+              <i class="star">★</i>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6">
-            <div>
-              <span class="stat-number display-2" data-target="20">0</span
-              ><span class="display-2">+</span>
-              <h3 class="stat-text fifthH">Expert Instructors</h3>
-              <p>Certified trainers and guides ensuring fun with complete safety.</p>
+        </div>
+
+        <!-- Testimonial 4 -->
+        <div class="swiper-slide">
+          <div class="testimonialCard">
+            <div class="quoteIcon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 8C10 8 9 9 9 12C9 15 10 16 10 16H7C7 16 4 15 4 12C4 9 7 4 7 4L10 7V8Z" fill="currentColor"/>
+                <path d="M19 8C19 8 18 9 18 12C18 15 19 16 19 16H16C16 16 13 15 13 12C13 9 16 4 16 4L19 7V8Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <p class="testimonialText">"Outstanding product quality and competitive pricing. The ET03e thrusters are perfect for our marine education program. Students appreciate the reliable performance and the company's prompt technical support whenever we need guidance."</p>
+            <div class="clientInfo">
+              <div class="clientAvatar">
+                <img loading="lazy" src="image/client-4.jpg" alt="Mr. Suresh Patel" onerror="this.style.display='none'">
+                <span class="avatarFallback">SP</span>
+              </div>
+              <div class="clientDetails">
+                <h5 class="clientName">Mr. Suresh Patel</h5>
+                <p class="clientDesignation">Technical Director</p>
+                <p class="clientCompany">Marine Technology Training Center</p>
+              </div>
+            </div>
+            <div class="rating">
+              <i class="star">★</i>
+              <i class="star">★</i>
+              <i class="star">★</i>
+              <i class="star">★</i>
+              <i class="star">★</i>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 5 -->
+        <div class="swiper-slide">
+          <div class="testimonialCard">
+            <div class="quoteIcon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 8C10 8 9 9 9 12C9 15 10 16 10 16H7C7 16 4 15 4 12C4 9 7 4 7 4L10 7V8Z" fill="currentColor"/>
+                <path d="M19 8C19 8 18 9 18 12C18 15 19 16 19 16H16C16 16 13 15 13 12C13 9 16 4 16 4L19 7V8Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <p class="testimonialText">"We've been using Eustance thrusters for aquaculture monitoring for over two years. The SS316 construction handles saltwater exposure brilliantly with minimal maintenance. Their after-sales service and spare parts availability is excellent."</p>
+            <div class="clientInfo">
+              <div class="clientAvatar">
+                <img loading="lazy" src="image/client-5.jpg" alt="Ms. Priya Nair" onerror="this.style.display='none'">
+                <span class="avatarFallback">PN</span>
+              </div>
+              <div class="clientDetails">
+                <h5 class="clientName">Ms. Priya Nair</h5>
+                <p class="clientDesignation">Operations Lead</p>
+                <p class="clientCompany">Coastal Aquaculture Solutions</p>
+              </div>
+            </div>
+            <div class="rating">
+              <i class="star">★</i>
+              <i class="star">★</i>
+              <i class="star">★</i>
+              <i class="star">★</i>
+              <i class="star">★</i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+      <!-- Navigation Buttons -->
+      <div class="swiper-button-next testimonialNext"></div>
+      <div class="swiper-button-prev testimonialPrev"></div>
+      
+      <!-- Pagination -->
+      <div class="swiper-pagination testimonialPagination"></div>
+    </div>
+  </div>
+</section>
+
+<section class="faqSection defaultPadding">
+  <div class="container">
+    <span class="subTag d-table">Frequently Asked Questions</span>
+    <h2 class="secH text-center">Everything You Need to Know</h2>
+    <p class="maxPara">Find answers to common questions about our marine robotics products</p>
+    
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="accordion" id="faqAccordion">
+          
+          <!-- FAQ 1 -->
+          <div class="accordion-item faqItem">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+                <span class="faqNumber">01</span>
+                What types of thrusters does Eustance Technology offer?
+              </button>
+            </h3>
+            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>We offer a comprehensive range of underwater thrusters designed for various applications. Our product line includes the ET03e (2.7kgf thrust), ET05 (5kgf thrust), ET07e, and heavy-duty 6.5kgf models. All thrusters feature corrosion-resistant SS316 construction, composite bearings, and are rated for depths up to 250 meters. Each model is optimized for different payload requirements and operational conditions.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="accordion-item faqItem">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                <span class="faqNumber">02</span>
+                Can I customize thrusters for my specific ROV project?
+              </button>
+            </h3>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Absolutely! We specialize in customization and work closely with clients to modify thrusters, ESC controllers, and complete ROV systems to meet specific mission requirements. Our engineering team can adjust thrust specifications, voltage ranges, mounting configurations, and integrate specialized sensors or components. Contact us with your project details for a customized solution.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="accordion-item faqItem">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                <span class="faqNumber">03</span>
+                What is the difference between brushed and brushless thrusters?
+              </button>
+            </h3>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Brushless thrusters, which we exclusively manufacture, offer significant advantages over brushed motors. They provide higher efficiency (up to 30% more), longer lifespan due to no mechanical wear on brushes, better power-to-weight ratios, and smoother operation with less vibration. Brushless motors also generate less electrical noise, making them ideal for underwater applications where precision control is critical.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="accordion-item faqItem">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                <span class="faqNumber">04</span>
+                How deep can your thrusters operate?
+              </button>
+            </h3>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Our standard thruster models are rated for depths up to 150-250 meters depending on the model. The ET03e and ET05 are rated for 150m, while our heavy-duty ET07e and 6.5kgf models can operate at 200-250m depths. For deeper applications beyond these ratings, we offer custom solutions with enhanced pressure-resistant sealing and reinforced construction.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="accordion-item faqItem">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
+                <span class="faqNumber">05</span>
+                What ESC controllers are compatible with your thrusters?
+              </button>
+            </h3>
+            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Our thrusters work with our proprietary waterproof ESC controllers (45A, 2-6S LiPo compatible) featuring bi-directional control and support for PWM, Oneshot, Multishot, and Dshot protocols. They're also compatible with standard brushless ESCs from major manufacturers. Our ESCs feature auto-detect throttle signals, regenerative braking, and hardware-generated motor PWM for reduced noise and improved precision control.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="accordion-item faqItem">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
+                <span class="faqNumber">06</span>
+                How do I choose the right thruster configuration for my ROV?
+              </button>
+            </h3>
+            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Thruster selection depends on your ROV's size, weight, operational depth, and required maneuverability. For basic 4-DOF control (forward/backward, left/right, up/down, yaw), you'll need 4-6 thrusters. Full 6-DOF control requires 6-8 thrusters. Consider payload weight, desired speed, current conditions, and mission duration. Our technical team can help you calculate thrust requirements and recommend optimal configurations.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 7 -->
+          <div class="accordion-item faqItem">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">
+                <span class="faqNumber">07</span>
+                What maintenance do underwater thrusters require?
+              </button>
+            </h3>
+            <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Regular maintenance includes rinsing with freshwater after saltwater use, inspecting propellers for debris or damage, checking cable connections, and testing seals periodically. Our SS316 construction and composite bearings minimize corrosion and wear. We recommend annual seal inspection for frequently used thrusters and immediate inspection after any impact or abnormal operation. Detailed maintenance guides are provided with each product.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 8 -->
+          <div class="accordion-item faqItem">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8" aria-expanded="false" aria-controls="faq8">
+                <span class="faqNumber">08</span>
+                Do you provide technical support and warranty?
+              </button>
+            </h3>
+            <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                <p>Yes, we offer comprehensive technical support via email, phone, and video consultation. All products come with a 12-month manufacturer warranty covering defects in materials and workmanship. Extended warranty options are available. Our team provides guidance on installation, configuration, troubleshooting, and optimization. Replacement parts and repair services are readily available with quick turnaround times.</p>
+              </div>
             </div>
           </div>
 
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
+
+
 
 
 <div id="fabContainer">
@@ -357,8 +880,8 @@
     </div>
     <!-- Call FAB icon -->
     <div aria-label="Call Us" class="Call-fab-container">
-      <a rel="noopener" target="_blank" href="tel:number">
-        <img style="height: 60px; width: 60px" src="image/phone-call.png" alt="phone icon" />
+      <a aria-label="Call Us" rel="noopener" target="_blank" href="tel:number">
+        <img loading="eager" style="height: 60px; width: 60px" src="image/phone-call.png" alt="phone icon" />
       </a>
     </div>
 </div>
@@ -507,79 +1030,173 @@ Main Road, Vadodara,391410</pre>
         effect: "fade",
       });  
 
-// Adventure trips slider
-const adventureSwiper = new Swiper(".adventureSwiper", {
-  slidesPerView: 3,
-  spaceBetween: 20,
-  loop: true,
-  autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
+    </script>
+
+
+
+
+<script>
+  let swiper;
+
+  function initSwiper() {
+    // Destroy existing Swiper instance if it exists
+    if (swiper !== undefined) {
+      swiper.destroy(true, true);
+    }
+
+    // Initialize new Swiper
+    swiper = new Swiper('#serviceCarousel', {
+      loop: true,
+      spaceBetween: 24,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        0: {
+          slidesPerView: 1
         },
+        600: {
+          slidesPerView: 2
+        },
+        1000: {
+          slidesPerView: 4
+        }
+      }
+    });
+  }
+
+  function filterCarousel(category) {
+    const swiperWrapper = document.querySelector('#serviceCarousel .swiper-wrapper');
+    const allItems = document.querySelectorAll('#all-items .item');
+
+    // Clear existing slides
+    swiperWrapper.innerHTML = '';
+
+    // Filter and add slides
+    allItems.forEach(function(item) {
+      const cat = item.getAttribute('data-category');
+      if (category === 'all' || cat === category) {
+        const slide = document.createElement('div');
+        slide.className = 'swiper-slide';
+        slide.innerHTML = item.innerHTML;
+        swiperWrapper.appendChild(slide);
+      }
+    });
+
+    // Reinitialize Swiper
+    initSwiper();
+  }
+
+  // Initialize on page load
+  document.addEventListener('DOMContentLoaded', function() {
+    filterCarousel('all');
+
+    // Add click event listeners to filter buttons
+    document.querySelectorAll('.filter-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        const category = this.getAttribute('data-filter');
+
+        // Update button states
+        document.querySelectorAll('.filter-btn').forEach(function(b) {
+          b.classList.remove('btnFilterActive');
+          b.classList.add('btn-outline-dark');
+        });
+        this.classList.remove('btn-outline-dark');
+        this.classList.add('btnFilterActive');
+
+        // Filter carousel
+        filterCarousel(category);
+      });
+    });
+  });
+
+// Initialize Testimonial Swiper
+const testimonialSwiper = new Swiper('.testimonialSwiper', {
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 30,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  },
+  pagination: {
+    el: '.testimonialPagination',
+    clickable: true,
+  },
   navigation: {
-    nextEl: ".adventure-button-next",
-    prevEl: ".adventure-button-prev",
+    nextEl: '.testimonialNext',
+    prevEl: '.testimonialPrev',
   },
   breakpoints: {
-    0: {
-      slidesPerView: 1, // mobile
-    },
     768: {
-      slidesPerView: 2, // tablet
+      slidesPerView: 2,
+      spaceBetween: 30,
     },
-    1200: {
-      slidesPerView: 3, // desktop
-    },
-  },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    }
+  }
 });
 
+</script>
 
+<script>
+  // Counter Animation
+function animateCounter() {
+  const counters = document.querySelectorAll('.statNumber');
+  const speed = 200; // Animation speed
 
-    </script>
+  counters.forEach(counter => {
+    const target = +counter.getAttribute('data-target');
+    let count = 0;
+    const increment = target / speed;
 
-    <script>
-      // Function to animate numbers
-      function animateStats() {
-        document.querySelectorAll(".stat-number").forEach(function (stat) {
-          const target = +stat.getAttribute("data-target");
-          const updateCount = () => {
-            const current = +stat.innerText.replace(/,/g, "");
-            const increment = Math.ceil(target / 100);
-
-            if (current < target) {
-              stat.innerText = (current + increment).toLocaleString();
-              setTimeout(updateCount, 20);
-            } else {
-              stat.innerText = target.toLocaleString();
-            }
-          };
-          updateCount();
-        });
+    const updateCount = () => {
+      count += increment;
+      if (count < target) {
+        counter.textContent = Math.ceil(count);
+        setTimeout(updateCount, 10);
+      } else {
+        counter.textContent = target;
       }
+    };
 
-      // Function to detect when the stats section is in the viewport
-      function isInViewport(element) {
-        const rect = element.getBoundingClientRect();
-        return (
-          rect.top >= 0 &&
-          rect.left >= 0 &&
-          rect.bottom <=
-            (window.innerHeight || document.documentElement.clientHeight) &&
-          rect.right <=
-            (window.innerWidth || document.documentElement.clientWidth)
-        );
-      }
+    updateCount();
+  });
+}
 
-      // Trigger animation only when section is in viewport
-      let statsAnimated = false;
-      window.addEventListener("scroll", () => {
-        const statsSection = document.getElementById("stats-section");
-        if (!statsAnimated && isInViewport(statsSection)) {
-          animateStats();
-          statsAnimated = true; // Prevent multiple triggers
-        }
-      });
-    </script>
+// Trigger animation when section is in view
+const observerOptions = {
+  threshold: 0.5,
+  rootMargin: '0px'
+};
+
+const observer = new IntersectionObserver(function(entries, observer) {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      animateCounter();
+      observer.unobserve(entry.target);
+    }
+  });
+}, observerOptions);
+
+// Observe the stats section
+const statsSection = document.querySelector('.statsSection');
+if (statsSection) {
+  observer.observe(statsSection);
+}
+
+</script>
+
+
 
 
     <script defer src="js/script.js"></script>
