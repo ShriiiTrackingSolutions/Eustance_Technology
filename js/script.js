@@ -207,7 +207,7 @@ Main Road, Vadodara,391410</pre>
 
     document.getElementById("fabContainer").innerHTML = `<!-- whatsapp FAB icon -->
     <div class="fab-container">
-      <a class="set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=916354710794">
+      <a aria-label="Whatsapp" class="set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=916354710794">
         <svg xmlns="http://www.w3.org/2000/svg" width="59.54px" height="60px" viewBox="0 0 256 258">
           <defs>
             <linearGradient id="logosWhatsappIcon0" x1="50%" x2="50%" y1="100%" y2="0%">
@@ -227,8 +227,8 @@ Main Road, Vadodara,391410</pre>
     </div>
     <!-- Call FAB icon -->
     <div class="Call-fab-container">
-      <a rel="noopener" target="_blank" href="tel:number">
-        <img style="height: 60px; width: 60px" src="image/phone-call.png" alt="phone icon" />
+      <a aria-label="Call Us" rel="noopener" target="_blank" href="tel:number">
+        <img loading="eager" style="height: 60px; width: 60px" src="image/phone-call.webp" alt="phone icon" />
       </a>
     </div>`// Keep your current Fab HTML here
   callback?.();

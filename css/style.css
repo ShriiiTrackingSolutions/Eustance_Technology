@@ -816,7 +816,7 @@ row-gap: 24px;
   gap: 12px;
 }
 
-.cardInfo h5 {
+.cardInfo .fifthH {
   font-size: 20px;
   font-weight: 700;
   color: #1a202c;
@@ -825,7 +825,7 @@ row-gap: 24px;
   transition: color 0.3s ease;
 }
 
-.serviceCards:hover .cardInfo h5 {
+.serviceCards:hover .cardInfo .fifthH {
   color: var(--accentColour);
 }
 
@@ -1090,6 +1090,7 @@ row-gap: 24px;
   margin-left: 4px;
   vertical-align: super;
   opacity: 0.9;
+  line-height: 60px;
 }
 
 /* Stat Label */
