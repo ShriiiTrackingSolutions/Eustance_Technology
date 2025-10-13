@@ -436,7 +436,7 @@ header{
       background: linear-gradient(to right, #0000009c 40%, #00000000) center/cover, url('../image/Banner2.webp') center / cover no-repeat;
     }
     .slider3{
-      background: linear-gradient(to right, #0000009c 20%, #00000011 100%) center/cover, url('../image/Banner3.webp') center / cover no-repeat;
+      background: linear-gradient(to right, #0000009c 0%, #00000011 100%) center/cover, url('../image/Banner3.webp') center / cover no-repeat;
     }
 
 /* banner css end */
@@ -1470,4 +1470,736 @@ row-gap: 24px;
 .accordion-item:last-of-type .accordion-button.collapsed {
   border-radius: 0 0 10px 10px;
 }
+
+
+/*---------------------------
+-----ABOUT PAGE START--------
+----------------------------*/
+
+.aboutBanner{
+  background:  linear-gradient(#010531c4 ,#010531c4), url('../image/AboutBanner.webp') center/cover no-repeat;
+}
+
+.aboutBanner p{
+  font-size: 20px;
+}
+
+.ulStyle {
+  list-style: none;
+  padding: 0;
+}
+
+.ulStyle li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 24px;
+}
+
+.ulStyle li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background: url('../image/ListImage.webp') no-repeat center;
+  background-size: contain;
+}
+
+.whyCard svg{
+  font-size: 50px;
+  margin-bottom: 12px;
+}
+
+.whyCard:hover svg{
+  color: var(--accentColour);
+}
+
+
+
+
+/* Core Values Section */
+.coreValuesSection {
+  background: linear-gradient(135deg, #1b6fc4 -20%, #010531 80%);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative Background Pattern */
+.coreValuesSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  opacity: 1;
+  pointer-events: none;
+}
+
+.coreValuesSection .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Override section heading colors for dark background */
+.coreValuesSection{
+  color: #fff;
+}
+
+.coreValuesSection .secH {
+  color: #fff;
+}
+
+.coreValuesSection .sectionSubtext {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 56px;
+}
+
+/* Values Grid */
+.valuesGrid {
+  margin-top: 48px;
+}
+
+/* Value Card */
+.valueCard {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 40px 28px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.valueCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--lightBg), var(--accentColour));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.valueCard:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: var(--lightBg);
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.valueCard:hover::before {
+  transform: scaleX(1);
+}
+
+/* Value Icon */
+.valueIcon {
+  width: 80px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  color: var(--lightBg);
+  transition: all 0.4s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.valueCard:hover .valueIcon {
+  background: rgba(119, 212, 255, 0.2);
+  border-color: var(--lightBg);
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 8px 25px rgba(119, 212, 255, 0.3);
+}
+
+/* Value Number Badge */
+.valueNumber {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.4);
+  transition: all 0.4s ease;
+}
+
+.valueCard:hover .valueNumber {
+  background: rgba(119, 212, 255, 0.2);
+  border-color: var(--lightBg);
+  color: var(--lightBg);
+  transform: scale(1.1);
+}
+
+/* Value Title */
+.valueTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 16px 0;
+  line-height: 1.4;
+  transition: color 0.3s ease;
+  padding-right: 40px;
+}
+
+.valueCard:hover .valueTitle {
+  color: var(--lightBg);
+}
+
+/* Value Description */
+.valueDesc {
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1199px) {
+  .valueCard {
+    padding: 36px 24px;
+  }
+  
+  .valueIcon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+  }
+  
+  .valueIcon svg {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .valueNumber {
+    width: 45px;
+    height: 45px;
+    font-size: 16px;
+  }
+  
+  .valueTitle {
+    font-size: 19px;
+    margin-bottom: 14px;
+  }
+  
+  .valueDesc {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  .coreValuesSection .sectionSubtext {
+    margin-bottom: 40px;
+  }
+  
+  .valuesGrid {
+    margin-top: 36px;
+  }
+  
+  .valueCard {
+    padding: 32px 22px;
+  }
+  
+  .valueIcon {
+    width: 65px;
+    height: 65px;
+  }
+  
+  .valueIcon svg {
+    width: 44px;
+    height: 44px;
+  }
+  
+  .valueTitle {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .coreValuesSection .sectionSubtext {
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  
+  .valuesGrid {
+    margin-top: 32px;
+  }
+  
+  .valueCard {
+    padding: 28px 20px;
+    margin-bottom: 20px;
+  }
+  
+  .valueIcon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 18px;
+  }
+  
+  .valueIcon svg {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .valueNumber {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    top: 16px;
+    right: 16px;
+  }
+  
+  .valueTitle {
+    font-size: 17px;
+    margin-bottom: 12px;
+    padding-right: 50px;
+  }
+  
+  .valueDesc {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
+
+@media (max-width: 575px) {
+  .valueCard {
+    padding: 24px 18px;
+  }
+  
+  .valueIcon {
+    width: 56px;
+    height: 56px;
+  }
+  
+  .valueIcon svg {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .valueNumber {
+    width: 38px;
+    height: 38px;
+    font-size: 14px;
+  }
+  
+  .valueTitle {
+    font-size: 16px;
+  }
+  
+  .valueDesc {
+    font-size: 13px;
+  }
+}
+
+
+
+/* Contact Hero Section */
+
+.contactHeroSection  {
+  background: linear-gradient(135deg, #1b6fc4 -20%, #010531 80%);
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  color: #ffffff;
+}
+
+/* Decorative Background Pattern */
+.contactHeroSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.contactHeroSection .container{
+  position: relative;
+  z-index: 1;
+}
+
+
+.heroDesc {
+  font-size: 18px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+}
+
+
+
+/* Contact Info Section */
+.contactInfoSection {
+  background: #f8f9fa;
+  position: relative;
+  z-index: 2;
+}
+
+.infoCard {
+  background: #fff;
+  border-radius: 16px;
+  padding: 36px 28px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+  border: 2px solid transparent;
+  height: 100%;
+  position: relative;
+}
+
+.infoCard  .absAnchor{
+  z-index: 1;
+}
+
+.infoCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(27, 111, 196, 0.15);
+  border-color: var(--accentColour);
+}
+
+.infoIcon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #1b6fc4 -20%, #010531 80%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+.infoCard:hover .infoIcon {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 8px 25px rgba(27, 111, 196, 0.4);
+}
+
+.infoTitle {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 0 0 16px;
+}
+
+.infoText {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--black);
+  margin: 0;
+}
+
+.infoText a {
+  color: var(--black);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.infoText a:hover {
+  color: var(--accentColour);
+}
+
+@media (max-width: 991px) {
+
+  
+  .infoCard {
+    padding: 32px 24px;
+  }
+  
+  .infoIcon {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .infoIcon svg {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .infoTitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  
+  .infoCard {
+    padding: 28px 20px;
+    margin-bottom: 20px;
+  }
+}
+
+
+/* Contact Form Section */
+.contactFormSection {
+  background: #fff;
+}
+
+.formWrapper {
+  background: #fff;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 2px solid #f0f0f0;
+}
+
+.formTitle {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin: 0 0 12px;
+}
+
+.formSubtitle {
+  font-size: 15px;
+  color: var(--Grey);
+  margin: 0 0 32px;
+}
+
+.form-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 8px;
+}
+
+.required {
+  color: #dc3545;
+}
+
+.formInput {
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 12px 16px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.formInput:focus {
+  border-color: var(--accentColour);
+  box-shadow: 0 0 0 3px rgba(27, 111, 196, 0.1);
+}
+
+.formInput.is-invalid {
+  border-color: #dc3545;
+}
+
+.formInput.is-valid {
+  border-color: #28a745;
+}
+
+.invalid-feedback {
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.checkboxGroup {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.form-check-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: var(--accentColour);
+  border-color: var(--accentColour);
+}
+
+.form-check-label {
+  font-size: 14px;
+  color: var(--black);
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+
+.btnFill svg {
+  transition: transform 0.3s ease;
+}
+
+.btnFill:hover svg {
+  transform: translateX(5px);
+}
+
+/* Map & Quick Info */
+.mapWrapper {
+  position: sticky;
+  top: 130px;
+}
+
+.mapContainer {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 24px;
+}
+
+.mapContainer iframe{
+  margin-bottom: -8px;
+}
+
+.quickInfo {
+  background: linear-gradient(135deg, #1b6fc4 -20%, #010531 80%);
+  border-radius: 16px;
+  padding: 32px 28px;
+  color: #fff;
+}
+
+.quickInfoTitle {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.quickInfoList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.quickInfoList li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.quickInfoList li svg {
+  color: var(--lightBg);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.quickInfoList li a{
+  color: currentColor;
+  transition: 0.3s ease-in-out;
+}
+.quickInfoList li a:hover{
+  color: var(--lightBg);
+}
+.quickInfoList li strong {
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .formWrapper {
+    padding: 32px 28px;
+  }
+  
+  .formTitle {
+    font-size: 24px;
+  }
+  
+  .mapWrapper {
+    position: static;
+    margin-top: 40px;
+  }
+  
+  .checkboxGroup {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .formWrapper {
+    padding: 28px 24px;
+  }
+  
+  .formTitle {
+    font-size: 22px;
+  }
+  
+  .formSubtitle {
+    font-size: 14px;
+  }
+  
+  .formInput {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+  
+  .quickInfo {
+    padding: 28px 24px;
+  }
+}
+
+/* WhatsApp Modal Styling */
+.modal-content {
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  background: linear-gradient(135deg, #1b6fc4 -20%, #010531 80%);
+  color: #fff;
+  border-radius: 20px 20px 0 0;
+  padding: 12px;
+  border-bottom: none;
+}
+
+.modal-dialog{
+  margin: auto;
+}
+
+
+.modal-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.modal-header .btn-close {
+  filter: brightness(0) invert(1);
+  opacity: 1;
+}
+
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.option {
+  border: none;
+  background: 0 0;
+  cursor: pointer;
+}
+.option img {
+  width: 50px;
+  height: 50px;
+}
+
 

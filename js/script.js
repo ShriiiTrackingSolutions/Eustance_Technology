@@ -77,7 +77,7 @@ function loadHeaderFooter(callback) {
                     <a href="outProjects.html" class="navLink">Out Projects</a>
                   </li>
                   <li class="navLi">
-                    <a href="About.html" class="navLink">About</a>
+                    <a href="about.html" class="navLink">About</a>
                   </li>
                   <li class="navLi">
                     <a href="contactUs.html" class="navLink">Contact</a>
