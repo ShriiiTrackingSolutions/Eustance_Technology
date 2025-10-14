@@ -184,6 +184,16 @@
 .aboutBanner p{
   font-size: 16px;
 }
+   
+      .heroDesc {
+        font-size: 16px;
+      }
+      
+      
+      .categoriesGrid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 24px;
+      }
 }
 @media (max-width: 767.98px) {
   .footer,
@@ -396,6 +406,32 @@
     font-size: 20px;
   }
 
+      .heroDesc {
+        font-size: 15px;
+      }
+      
+      .heroStats {
+        gap: 24px;
+      }
+      
+      .rovHeroSection .statNumber {
+        font-size: 32px;
+      }
+      
+      .rovHeroSection .statLabel {
+        font-size: 12px;
+      }
+      
+      
+      .categoriesGrid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+      
+      .categoryImage {
+        height: 200px;
+      }
+
 }
 
 @media (max-width: 575.98px) {
@@ -498,6 +534,24 @@
     right: 26px;
     font-size: 18px;
   }
+
+      
+      
+      .heroDesc {
+        font-size: 14px;
+      }
+      
+      .categoryImage {
+        height: 180px;
+      }
+      
+      .categoryContent {
+        padding: 20px 16px;
+      }
+      
+      .categoryName {
+        font-size: 17px;
+      }
 }
 
 @media only screen and (max-height: 539.98px) {
