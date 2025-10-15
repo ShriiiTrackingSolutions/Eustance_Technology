@@ -2161,6 +2161,7 @@ row-gap: 24px;
   border-radius: 20px;
   border: none;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  margin: 0 12px;
 }
 
 .modal-header {
@@ -2308,9 +2309,10 @@ row-gap: 24px;
     
     .categoryImage {
       position: relative;
-      height: 220px;
+      aspect-ratio: 1;
       overflow: hidden;
       background: linear-gradient(135deg, rgba(27, 111, 196, 0.1) 0%, rgba(1, 5, 49, 0.1) 100%);
+      
     }
     
     .categoryImage img {
@@ -2377,32 +2379,6 @@ row-gap: 24px;
     .categoryCard:hover .categoryName {
       color: var(--accentColour);
     }
-    
-    
-    /* Image Placeholder */
-    .imagePlaceholder {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(135deg, rgba(27, 111, 196, 0.1) 0%, rgba(1, 5, 49, 0.1) 100%);
-      color: var(--accentColour);
-      padding: 20px;
-    }
-    
-    .imagePlaceholder svg {
-      opacity: 0.4;
-      margin-bottom: 12px;
-    }
-    
-    .imagePlaceholder span {
-      font-size: 14px;
-      font-weight: 600;
-      opacity: 0.6;
-      text-align: center;
-    }
 
 .productCard{
   background: #fff;
@@ -2423,7 +2399,7 @@ row-gap: 24px;
 
 .prodImg {
   position: relative;
-  aspect-ratio: 10/7;
+  aspect-ratio: 1/1;
   overflow: hidden;
   background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
 }
@@ -2467,6 +2443,9 @@ row-gap: 24px;
   flex: 1;
 }
 
+.swiperShaper{
+  aspect-ratio: 0.827/1 !important;
+}
 
     .productSwiper .swiper-slide {
       text-align: center;
@@ -2477,10 +2456,10 @@ row-gap: 24px;
     }
     .productSwiper .swiper-slide .spotlight{
       display: inline-block;
+      width: 100%;
       height: 100%;
     }
     .productSwiper .swiper-slide img {
-      aspect-ratio: 1/1;
       display: block;
       width: 100%;
       height: 100%;
@@ -2552,10 +2531,33 @@ font-size: 30px !important;
     box-shadow: 0 16px 50px rgba(27, 111, 196, 0.2);
     border-color: var(--accentColour);
 }
-.descriptionBox .thirdH{
+.descriptionBox .thirdH,.descriptionBox .fourthH{
 transition: color 0.3s ease-in-out;
 }
 
-.descriptionBox:hover .thirdH{
+.descriptionBox:hover .thirdH,.descriptionBox:hover .fourthH{
   color: var(--accentColour);
+}
+
+.prodDetail .thirdH .fifthH{
+  color: #b61a1a;
+}
+
+.PDF_Wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 8px;
+}
+.pdfBtn{
+  display: flex;
+  align-items: end;
+  gap: 8px;
+  color: var(--primary-color);
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+.pdfBtn img{
+ width:24px;
+ height: auto;
 }
