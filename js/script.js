@@ -98,7 +98,7 @@ function loadHeaderFooter(callback) {
               <p>Eustance Technology is a trusted provider of innovative electronic solutions, delivering cutting-edge products and exceptional service. With expertise in modern electronics, we empower businesses and individuals through quality, reliability, and technological excellence that drives success.</p>
             </div>
             <div class="col-sm-6 col-lg-auto mb-4 mb-md-0 exploreLinks">
-              <h4 class="fourthH">Quick Links</h4>
+              <h2 class="fourthH">Quick Links</h2>
               <ul>
                 <li>
                   <a class="footerLinks" href="index.html">
@@ -127,7 +127,7 @@ function loadHeaderFooter(callback) {
               </ul>
             </div>
             <div class="col-sm-6 col-lg-auto mb-4 mb-md-0 exploreLinks1">
-              <h4 class="fourthH ">Explore Link</h4>
+              <h2 class="fourthH ">Explore Link</h2>
               <ul>
                 <li>
                   <a href="#" class="footerLinks">
@@ -156,7 +156,7 @@ function loadHeaderFooter(callback) {
               </ul>
             </div>
             <div class="col-md-6 col-lg-auto mb-4 mb-md-0">
-              <h4 class="fourthH ">Contact Us</h4>
+              <h2 class="fourthH ">Contact Us</h2>
               <ul class="contact-info">
                 <li>
                   <a class="locationLink footerLinks" target="_blank" href="https://maps.app.goo.gl/EMtQmUV8unVQYXWE8">

@@ -552,6 +552,14 @@
       .categoryName {
         font-size: 17px;
       }
+
+.descriptionBox{
+  border-radius: 16px;
+  padding: 12px;
+}
+.descriptionBox p{
+  font-size: 14px;
+}
 }
 
 @media only screen and (max-height: 539.98px) {

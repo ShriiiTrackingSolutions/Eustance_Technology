@@ -2475,7 +2475,10 @@ row-gap: 24px;
       justify-content: center;
       align-items: center;
     }
-
+    .productSwiper .swiper-slide .spotlight{
+      display: inline-block;
+      height: 100%;
+    }
     .productSwiper .swiper-slide img {
       display: block;
       width: 100%;
@@ -2525,3 +2528,32 @@ font-size: 30px !important;
       box-shadow: 0 4px 6px rgba(102, 126, 234, 0.2);
     }
 
+.productDescriptions .container>.row{
+  justify-content: space-evenly;
+  row-gap: 30px;
+}
+
+
+.descriptionBox{
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  padding: 24px;
+}
+.descriptionBox:hover{
+  transform: translateY(-12px);
+    box-shadow: 0 16px 50px rgba(27, 111, 196, 0.2);
+    border-color: var(--accentColour);
+}
+.descriptionBox .thirdH{
+transition: color 0.3s ease-in-out;
+}
+
+.descriptionBox:hover .thirdH{
+  color: var(--accentColour);
+}
