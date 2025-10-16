@@ -33,7 +33,7 @@ img {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-size: clamp(2.25rem, 2rem + 2vw, 4rem);   /* ~36px–64px */
+  font-size: clamp(1.74rem, 1.3rem + 2vw, 4rem);   /* ~36px–64px */
   margin-bottom: 24px;
 }
 .display-2 span{
@@ -46,7 +46,7 @@ img {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-size: clamp(24px, 1.25rem + 1.8vw, 46px); 
+  font-size: clamp(24px, 1.2rem + 1.8vw, 46px); 
   margin-bottom: 30px;
 }
 .thirdH {
@@ -2379,6 +2379,10 @@ row-gap: 24px;
     .categoryCard:hover .categoryName {
       color: var(--accentColour);
     }
+
+.productGallery .container>.row{
+  row-gap: 24px;
+}
 
 .productCard{
   background: #fff;
