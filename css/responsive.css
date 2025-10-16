@@ -1,6 +1,10 @@
 
 @media (max-width: 1399.98px) {
   
+      .categoriesGrid {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+    }
 }
 @media (max-width: 1199.98px) {
 

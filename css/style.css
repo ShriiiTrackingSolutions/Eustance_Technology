@@ -2282,10 +2282,12 @@ row-gap: 24px;
     .categoriesSection {
       background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     }
+
+    /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
     
     .categoriesGrid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       gap: 28px;
       margin-top: 48px;
     }
