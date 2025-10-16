@@ -169,7 +169,7 @@ Main Road, Vadodara,391410</pre>
                 </li>
                 <li>
                   <a href="tel:Number" class="footerLinks">
-                    <span class="iconify" data-icon="solar:phone-linear" data-inline="false"></span>+91 63547 10794 </a>
+                    <span class="iconify" data-icon="solar:phone-linear" data-inline="false"></span>+91 63547 10794 </a> 
                 </li>
                 <li>
                   <a class="emailAnchor footerLinks" href="mailto:youremail">

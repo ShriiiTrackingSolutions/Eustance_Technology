@@ -2447,8 +2447,14 @@ row-gap: 24px;
   flex: 1;
 }
 
+.productDescriptions .col-lg-5{
+  position: relative;
+}
+
 .swiperShaper{
   aspect-ratio: 0.827/1 !important;
+  position: sticky;
+  top: 130px;
 }
 
     .productSwiper .swiper-slide {
