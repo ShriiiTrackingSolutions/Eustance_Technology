@@ -177,7 +177,7 @@ Main Road, Vadodara,391410</pre>
                 </li>
               </ul>
               <div class="social-icons mt-3">
-                <a aria-label="Social Link" target="_blank" class="facebook" href="https://www.linkedin.com/">
+                <a aria-label="Social Link" target="_blank" class="facebook" href="https://www.facebook.com/">
                   <span class="iconify" data-icon="ri:facebook-fill" data-inline="false"></span>
                 </a>
                 <a aria-label="Social Link" class="whatsapp set-url-target" rel="noopener" data-mobile-target="" data-desktop-target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=916354710794">
